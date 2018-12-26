@@ -10,12 +10,16 @@ Clone this repo and instal dependencies:
 npm install
 ```
 
-and now start server with run `adonis serve --dev`.
+And now start server:
+
+```bash
+adonis serve --dev
+```
 
 ### Migrations
 
 Run the following command to run startup migrations.
 
-```js
+```bash
 adonis migration:run
 ```
