@@ -1,1 +1,1 @@
-web: ENV_SILENT=true node server.js
+web: NODE_ENV=prod node server.js
