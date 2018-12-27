@@ -14,6 +14,8 @@ And now start server:
 
 ```bash
 adonis serve --dev
+or
+npm run dev
 ```
 
 ### Migrations
