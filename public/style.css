@@ -17,6 +17,12 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 48px;
+  color: white;
+  animation: slideUp 1s cubic-bezier(0.19, 1, 0.30, 1) 1.3s forwards;
+}
+
 section {
   height: 100%;
   display: flex;
@@ -46,15 +52,6 @@ section:before {
   margin-bottom: 35px;
   opacity: 0;
   animation: slideUp 1s cubic-bezier(0.19, 1, 0.30, 1) 1.3s forwards;
-}
-
-.title {
-  background: url("/title.svg") no-repeat;
-  width: 219px;
-  height: 36px;
-  background-size: 100%;
-  opacity: 0;
-  animation: slideUp 1s cubic-bezier(0.19, 1, 0.30, 1) 0.2s forwards;
 }
 
 .subtitle {
